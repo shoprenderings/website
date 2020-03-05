@@ -1842,6 +1842,8 @@ input, select, textarea {
 		.box.style1 {
 			background: #fff;
 			padding: 3em;
+			opacity: 0.85;
+			border-radius:15px;
 		}
 
 			.box.style1 .image {
@@ -1859,6 +1861,7 @@ input, select, textarea {
 					top: 0;
 					height: 100%;
 					width: auto;
+					border-radius: 15px 0px 0px 15px;
 				}
 
 			.box.style1 .inner > :last-child {
@@ -1880,6 +1883,7 @@ input, select, textarea {
 
 			.box.style1.left .image {
 				right: 0;
+				border-radius: 0px 15px 15px 0px;
 			}
 
 				.box.style1.left .image img {
